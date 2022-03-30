@@ -2,7 +2,7 @@
   <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal">
     <el-menu-item index="1">Processing Center</el-menu-item>
     <el-sub-menu index="2">
-      <template #title>Workspace</template>
+      <template #title>work</template>
       <el-menu-item index="2-1">item one</el-menu-item>
       <el-menu-item index="2-2">item two</el-menu-item>
       <el-menu-item index="2-3">item three</el-menu-item>
@@ -35,7 +35,6 @@ const emit = defineEmits<{
   (e: 'clearOut'): void
 }>()
 const activeIndex = ref('1')
-const activeIndex2 = ref('1')
 const dialogVisible = ref(false)
 const back = () => {
   emit('backIndex', 0)

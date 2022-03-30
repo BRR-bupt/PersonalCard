@@ -10,7 +10,9 @@
   },
   "dependencies": {
     "element-plus": "^2.1.6",
+    "jquery": "^3.6.0",
     "less": "^4.1.2",
+    "pinia": "^2.0.12",
     "vue": "^3.2.25"
   },
   "devDependencies": {
